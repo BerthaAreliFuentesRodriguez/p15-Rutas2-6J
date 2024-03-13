@@ -26,7 +26,7 @@ class PantallaIni_0465 extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, "/pantalla2_0465"); //fin onPressed
             },
-            child: Text("Mover a pantalla2"),
+            child: Text("Ejemplo Container-Card"),
           )
         ], //fin de niños
       )),
