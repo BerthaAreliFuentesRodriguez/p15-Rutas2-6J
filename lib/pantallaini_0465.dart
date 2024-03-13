@@ -10,7 +10,7 @@ class PantallaIni_0465 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("pagina Inicial Fuentes0465"),
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color(0xff646cb9),
       ),
       body: Center(
           child: Column(
@@ -20,13 +20,19 @@ class PantallaIni_0465 extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, "/pantalla1_0465"); //fin onPressed
             },
-            child: Text("Ejemplo Card"),
+            child: Text("Pantalla1"),
           ),
           ElevatedButton(
             onPressed: () {
               Navigator.pushNamed(context, "/pantalla2_0465"); //fin onPressed
             },
-            child: Text("Ejemplo Container-Card"),
+            child: Text("Pantalla2"),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, "/pantalla3_0465"); //fin onPressed
+            },
+            child: Text("Pantalla3"),
           )
         ], //fin de niños
       )),

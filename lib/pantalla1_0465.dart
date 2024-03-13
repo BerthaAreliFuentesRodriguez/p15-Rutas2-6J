@@ -10,17 +10,19 @@ class Pantalla1_0465 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pantalla1 Fuentes0465'),
-        backgroundColor: Colors.pink,
+        backgroundColor: Color(0xffe5769b),
       ),
       body: Center(
-        child: Card(
-          color: Color(0xff79cf58),
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Text(
-              'Pantalla1 Fuentes0465',
-              style: TextStyle(fontSize: 30),
-            ),
+        child: Container(
+          color: Color(0xff9782f2),
+          width: 300,
+          height: 200,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Pantalla1 Fuentes0465',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fuentes0465/pantalla3_0465.dart';
 import 'package:fuentes0465/pantalla2_0465.dart';
 import 'package:fuentes0465/pantalla1_0465.dart';
 import 'package:fuentes0465/pantallaini_0465.dart';
@@ -16,7 +17,8 @@ class MiApp0465 extends StatelessWidget {
       routes: {
         "/": (context) => const PantallaIni_0465(),
         "/pantalla1_0465": (context) => Pantalla1_0465(),
-        "/pantalla2_0465": (context) => Pantalla2_0465()
+        "/pantalla2_0465": (context) => Pantalla2_0465(),
+        "/pantalla3_0465": (context) => Pantalla3_0465()
       },
     ); //fin de material
   } //fin de widget
