@@ -10,11 +10,11 @@ class Pantalla3_0465 extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Pantalla3 Fuentes0465'),
-          backgroundColor: Color(0xff5a9c96),
+          backgroundColor: Color(0xffa265db),
         ),
         body: Center(
             child: Container(
-          color: Color(0xff6296bf),
+          color: Color(0xffe06a7a),
           width: 300,
           height: 300,
 
