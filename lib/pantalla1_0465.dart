@@ -13,17 +13,25 @@ class Pantalla1_0465 extends StatelessWidget {
         backgroundColor: Colors.pink,
       ),
       body: Center(
-          child: Column(
-        children: [
-          ElevatedButton(
-            onPressed: () {
-              Navigator.pushNamed(context, "/pantalla2_0465"); //fin onPressed
-            },
-            child: Text("Mover a pantalla2"),
-          )
-        ], //fin niño
-      )),
+        child: Card(
+          color: Color(0xff79cf58),
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Text(
+              'Pantalla1 Fuentes0465',
+              style: TextStyle(fontSize: 30),
+            ),
+          ),
+        ),
+      ),
     );
-    ;
   }
 }
+/*color: Color(0xff61bee8),
+          child: Padding(
+            padding: EdgeInsets.all(16), //padding
+            child: Text(
+              "Tarjeta Fuentes",
+              style: TextStyle(fontSize: 30, color: Color(0xff7a3cae)),
+            ),
+          ),*/
